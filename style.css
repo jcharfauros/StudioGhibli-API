@@ -1,0 +1,61 @@
+/* font-family: 'Noto Serif', serif; */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {    
+    background-image: url(./assets/totoro025.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    align-items: center;
+    color:thistle;
+}
+
+.main h1 {
+    font-family: 'Noto Serif', serif;
+    color: #DDAF94;
+}
+
+.card {
+    background-color: rgb(70,148,123);
+    border-radius: 50px;
+}
+
+.card-link {
+    color:#FDF8F5;
+    text-decoration: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(70, 148, 123, 0.5);
+    color: #FDF8F5;
+    font-size: 20px; 
+    font-style: italic;
+    text-shadow: 2px 2px rgb(4, 90, 90);
+    text-align: center;
+ }
+
+ .btn-light {
+     color: #FDF8F5;
+     background: none;
+ }
+
+ .btn-light:hover, .btn-light:focus, .btn-light:active {
+     color: green;
+     border-color: yellow;
+ }
+
+ 

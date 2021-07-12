@@ -22,15 +22,30 @@ body {
 
 .main h1 {
     font-family: 'Noto Serif', serif;
-    color: #DDAF94;
+    /* color: #DDAF94; */
+    color: #D7BD43;
     text-shadow: 2px 2px rgb(4, 90, 90);
 }
 
+.top-head {
+    color: yellow;
+    text-shadow: 2px 2px green;
+    background-color: rgb(70, 148, 123, 0.5);
+    padding-bottom: 10px;
+}
+
+.top-head h3 {
+    font-family: 'Noto Serif', serif;
+}
+
 .card {
-    background-color: rgb(70,148,123);
+    background-color: #C07049;
+    /* background-color: rgb(70,148,123); */
     border-radius: 50px;
-    /* box-shadow: 5px 10px rgb(4, 90, 90, 0.5); */
-    /* box-shadow: 4px 4px rgba(242, 255, 255, 0.5); */
+    box-shadow: 20px 20px 10px rgba(206, 250, 250, 0.5);
+    /* border-color: rgba(242, 255, 255, 0.5);
+    border-width: 8px;
+    border-style: dashed; */
     /* padding-bottom: 5em; */
 }
 
